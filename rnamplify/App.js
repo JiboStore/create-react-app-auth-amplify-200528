@@ -6,6 +6,10 @@
  * @flow strict-local
  */
 
+// Hosted UI Endpoint: https://rnamplifya6bb4135-a6bb4135-local.auth.ap-southeast-1.amazoncognito.com/
+// Test Your Hosted UI Endpoint: https://rnamplifya6bb4135-a6bb4135-local.auth.ap-southeast-1.amazoncognito.com/login?response_type=code&client_id=2e5pkr3p25d33ev9b6qrcevj8b&redirect_uri=https://pvp-gameco-dev.auth.ap-southeast-1.amazoncognito.com/
+// https://rnamplifya6bb4135-a6bb4135-local.auth.ap-southeast-1.amazoncognito.com/oauth2/idpresponse
+
 import React from 'react';
 import {
   SafeAreaView,
