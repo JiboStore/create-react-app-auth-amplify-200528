@@ -8,6 +8,7 @@
 
 import React from 'react';
 import {
+  Button,
   SafeAreaView,
   StyleSheet,
   ScrollView,
@@ -24,7 +25,29 @@ import {
   ReloadInstructions,
 } from 'react-native/Libraries/NewAppScreen';
 
-const App: () => React$Node = () => {
+import { Auth } from 'aws-amplify'
+
+const App: () => ReactNode = () => {
+  return (
+    <View>
+      <Button
+        title="Sign in with Facebook"
+        onPress={() => {
+          const resPromise = Auth.federatedSignIn({ provider: "Facebook" });
+          console.log('signin resPromise: ' + JSON.stringify(resPromise));
+          resPromise.then(res => {
+            console.log('signin success: ' + JSON.stringify(res))
+          }).catch(err => {
+            console.log('signin err: ' + JSON.stringify(err))
+            console.log(err);
+          });
+        }}
+      />
+    </View>
+  );
+}
+
+const App_Ori: () => React$Node = () => {
   return (
     <>
       <StatusBar barStyle="dark-content" />
