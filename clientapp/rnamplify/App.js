@@ -43,6 +43,16 @@ const App: () => ReactNode = () => {
           });
         }}
       />
+      <Button
+        title="Print Auth User"
+        onPress={() => {
+          const resPromise = Auth.currentAuthenticatedUser().then(u => {
+            console.log('facebook currentAuthUser: ' + JSON.stringify(u));
+          }).catch(e => {
+            console.log('facebook err: ' + JSON.stringify(e));
+          });
+        }}
+      />
     </View>
   );
 }
