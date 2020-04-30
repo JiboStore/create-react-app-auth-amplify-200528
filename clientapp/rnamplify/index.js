@@ -17,6 +17,7 @@ AppRegistry.registerComponent(appName, () => App);
 Hosted UI Endpoint: https://rnamplify85d16374-85d16374-local.auth.ap-southeast-1.amazoncognito.com/
 Test Your Hosted UI Endpoint: https://rnamplify85d16374-85d16374-local.auth.ap-southeast-1.amazoncognito.com/login?response_type=code&client_id=7g1057n1igvpbnvb94hb2hpabo&redirect_uri=myapp://
 https://rnamplify85d16374-85d16374-local.auth.ap-southeast-1.amazoncognito.com/oauth2/idpresponse
+https://pvp-gameco-dev.auth.ap-southeast-1.amazoncognito.com/oauth2/idpresponse
 http://localhost:3000/login/callback, 
 **/
 
