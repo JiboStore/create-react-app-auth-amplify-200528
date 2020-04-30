@@ -4,8 +4,8 @@ const awsmobile = {
     "aws_cognito_identity_pool_id": "ap-southeast-1:1b7f5645-de18-4a57-8782-cb0397b8d7d1",
     "aws_cognito_region": "ap-southeast-1",
     "aws_user_pools_id": "ap-southeast-1_qs7LNj0RY",
-    // "aws_user_pools_web_client_id": "5qepofn8kh8ppmeu7sss6sklan",
-    "aws_user_pools_web_client_id": "15e3u1u19agku2os93h792r7uf",
+    "aws_user_pools_web_client_id": "5qepofn8kh8ppmeu7sss6sklan",
+    // "aws_user_pools_web_client_id": "15e3u1u19agku2os93h792r7uf",
     "oauth": {
         "domain": "pvp-gameco-dev.auth.ap-southeast-1.amazoncognito.com",
         "scope": [
